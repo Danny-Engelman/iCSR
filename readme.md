@@ -1,3 +1,8 @@
+## In 2017 Microsoft disabled their own CSR technology for SharePoint "Modern Experiences"
+## I have left the Microsoft world
+
+<hr>
+
 #### icsr.js  =  Core  +  Templates (Priority, PercentComplete, Status, Date)
 
 The minified version **icsr.min.js** is under 10 KB
