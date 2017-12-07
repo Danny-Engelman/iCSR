@@ -14,8 +14,9 @@ The minified version **icsr.min.js** is under 10 KB
 
 ### Developing with iCSR and creating your own CSR code
 
-* Manage iCSR and CSR files with the [LinkManager Bookmarklet](http://365CSI.nl/linkmanager)
 * for Live in-Browser editting of CSR files use the [Cisar Chrome Browser extension](http://365CSI.nl/cisar) (by Andrei Markeev)
+
+* load the iCSR library as UserCustomAction or paste the code into the head of your CSR file
 
 ### ![](https://365csi.nl/icsr/ipcountlogo/index.php?1) JavaScript framework for writing **less** Client Side Rendering code
 
@@ -66,10 +67,11 @@ The minified version **icsr.min.js** is under 10 KB
 
 1. ##### Install and learn to use the [Cisar Chrome extension](https://chrome.google.com/webstore/detail/cisar/nifbdojdggkboiifaklkamfpjcmgafpo?hl=en) (*developed by Andrei Markeev*)
 
-2. ##### Use the [LinkManager Bookmarklet](https://365csi.nl/icsr/linkmanager.html) to add [iCSR.js](./icsr.js) to your Site Collection Style Library
+or manage as Site/Web UserCustomAction with 
+[the SPEditor Chrome Extension](https://chrome.google.com/webstore/detail/sp-editor/ecblfcmjnbbgaojblcpmjoamegpbodhd?hl=en)
 
 3. ##### Use the default iCSR Templates (included in icsr.js)
-4. 
+ 
 4. ##### Or create your own Template:
 
 The new [Office365 Microsoft Planner](http://www.learningsharepoint.com/2016/01/27/10-things-to-know-about-office-365-planner/) breaks Tasks in 4 States:
@@ -161,7 +163,7 @@ iCSR has multiple (configurable) levels of console.log traces that can be activa
     * Planner Template matching the new Microsoft Planner
     * bugfixes
     * under the hood optimizations
-    * added [JSLinkManager](http://icsr.github.ion/JSLinkManager) as seperate Bookmarklet
+    * (for Customers only) added [JSLinkManager](http://icsr.github.ion/JSLinkManager) as seperate Bookmarklet
     * icColors inspector in console
 * 1.9.9 - march 18th
     * Performance enhancments
